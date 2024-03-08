@@ -1,0 +1,29 @@
+select irstream data as data spolka as X, kursOtwarcia as Y
+                     from KursAkcji#length(3)
+                     where spolka = 'Oracle'; 
+
+
+select irstream data , kursOtwarcia , spolka
+                     from KursAkcji#length(3)
+                     where spolka = 'Oracle';
+
+
+select irstream data , kursOtwarcia , spolka
+                     from KursAkcji(spolka = 'Oracle')#length(3);
+
+
+select istream data , kursOtwarcia , spolka
+                     from KursAkcji(spolka = 'Oracle')#length(3);
+
+
+select istream data , max(kursOtwarcia) , spolka
+                     from KursAkcji(spolka = 'Oracle')#length(5);
+
+
+select istream data , (kursOtwarcia - max(kursOtwarcia)) as roznica , spolka
+                     from KursAkcji(spolka = 'Oracle')#length(5);
+
+
+select istream data , (kursOtwarcia - min(kursOtwarcia)) as roznica , spolka
+                     from KursAkcji(spolka = 'Oracle')#length(2)
+                     having (kursOtwarcia - min(kursOtwarcia)) > 0.0;
