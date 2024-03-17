@@ -1,0 +1,66 @@
+select istream data, spolka, kursZamkniecia, max(kursZamkniecia)-kursZamkniecia as roznica
+from KursAkcji()#ext_timed_batch(data.getTime(), 1 days); 
+
+select istream data, spolka, kursZamkniecia, max(kursZamkniecia)-kursZamkniecia as roznica
+from KursAkcji(spolka in ('IBM', 'Honda', 'Microsoft'))#ext_timed_batch(data.getTime(), 1 days);
+
+select istream data, spolka, kursOtwarcia, kursZamkniecia
+from KursAkcji()
+where kursZamkniecia > kursOtwarcia;
+
+select istream data, spolka, kursZamkniecia, max(kursZamkniecia) - kursZamkniecia as roznica
+from KursAkcji(spolka in ('PepsiCo', 'CocaCola'))#ext_timed(data.getTime(), 7 days);
+
+select istream data, spolka, kursZamkniecia
+from KursAkcji(spolka in ('PepsiCo', 'CocaCola'))#ext_timed_batch(data.getTime(), 1 days)
+order by kursZamkniecia desc
+limit 1;
+
+select istream max(kursZamkniecia) as maksimum
+from KursAkcji()#ext_timed_batch(data.getTime(), 7 days)
+order by kursZamkniecia desc
+limit 1;
+
+select istream cc.kursZamkniecia as kursCoc,
+                p.kursZamkniecia as kursPep,
+                p.data
+from KursAkcji(spolka='CocaCola')#length(1) as cc
+full outer join KursAkcji(spolka='PepsiCo')#length(1) as p
+on cc.data = p.data
+where p.kursZamkniecia > cc.kursZamkniecia;
+
+select istream kursZamkniecia as kursBiezacy, data, spolka,
+                kursZamkniecia - (
+                    select kursZamkniecia
+                    from KursAkcji#firstunique(spolka) as b
+                    where b.spolka = a.spolka) as roznica
+from KursAkcji(spolka in ('PepsiCo', 'CocaCola'))#length(1) as a;
+
+select istream kursZamkniecia as kursBiezacy, data, spolka,
+                kursZamkniecia - (
+                    select kursZamkniecia
+                    from KursAkcji#firstunique(spolka) as b
+                    where b.spolka = a.spolka) as roznica
+from KursAkcji()#length(1) as a
+where kursZamkniecia > (
+                    select kursZamkniecia
+                    from KursAkcji#firstunique(spolka) as b
+                    where b.spolka = a.spolka);
+
+select sA.spolka as spolka,
+                    sA.kursOtwarcia as kursA, sB.kursOtwarcia as kursB,
+                    sA.data as dataA, sB.data as dataB
+from KursAkcji()#ext_timed(data.getTime(), 7 days) as sA,
+                     KursAkcji()#ext_timed(data.getTime(), 7 days) as sB
+where sA.kursOtwarcia + 3 < sB.kursOtwarcia
+      and sA.spolka = sB.spolka;
+
+select data, spolka, obrot
+from KursAkcji(market = 'NYSE')#ext_timed_batch(data.getTime(), 7 days)
+order by obrot desc
+limit 3;
+
+select data, spolka, obrot
+from KursAkcji(market = 'NYSE')#ext_timed_batch(data.getTime(), 7 days)
+order by obrot desc
+limit 1 offset 2;
