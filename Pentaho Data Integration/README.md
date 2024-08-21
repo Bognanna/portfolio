@@ -50,6 +50,7 @@ Job `odswiez dwh` runs all transformations that fills the data warehouse in prop
 ![](https://github.com/Bognanna/portfolio/blob/main/Pentaho%20Data%20Integration/img/zadanie_od%C5%9Bwie%C5%BC_dwh.PNG)
 
 Job `ladowanie stanow okregow` updates information about region and states in clients dimension and resets markers in `geonames_org` datatable.
+
 ![](https://github.com/Bognanna/portfolio/blob/main/Pentaho%20Data%20Integration/img/zadanie_%C5%82adowanie_stan%C3%B3w_okr%C4%99g%C3%B3w.PNG)
 
 Job `ladowanie filmow` runs transformations that updates movies, actors and movie_actors datatables.
