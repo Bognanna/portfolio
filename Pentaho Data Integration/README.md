@@ -33,6 +33,7 @@ Transformation `porownanie stany kraje` adds markers to data that changed in dat
 ![](https://github.com/Bognanna/portfolio/blob/main/Pentaho%20Data%20Integration/img/transformacja_por%C3%B3wnanie_stany_kraje.PNG)
 
 Transformation `popraw zmienione stany kraje` updates clients datatable with marked as updated data about states and regions from `geonames_org` table.
+
 ![](https://github.com/Bognanna/portfolio/blob/main/Pentaho%20Data%20Integration/img/transformacja_popraw_zmienione_stany_kraje.PNG)
 
 Transformation `uzupelnij stany kraje` fills empty fields for clients who doesn't have state and region provieded in datatable.
