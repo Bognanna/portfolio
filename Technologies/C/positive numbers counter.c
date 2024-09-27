@@ -1,4 +1,8 @@
 #include<stdio.h>
+/*
+Write a program to count how many input numbers are positive (i.e. > 0).
+The input of the program will consist of any number of real values.
+    */
 int main()
 {
     int n=0;
