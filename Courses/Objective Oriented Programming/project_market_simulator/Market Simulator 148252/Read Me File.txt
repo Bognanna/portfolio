@@ -1,0 +1,10 @@
+Bogna Kilanowska 148252
+
+-> Buttons "Make", "Index", "Currency", "Commodity" and "Company" allows user to create random objects. 
+-> Markets and Indexes aren't very useful in this application.
+-> Sliders "No of transactions per minute" and "Bear : bull ratio" allows user to change the world parameters.
+-> Funds and Investors counters shows the number of players on the market - right now I allow to create only 10 funds and 20 investors.
+-> To see the properties of the object, user must click the selected node in the tree of markets or players
+-> Button "Force player to change the interest in the asset" allows user to randomly change the asset which the selected in the tree player is going to buy
+-> Button "Stop" allows user to stop all the transaction, clicking this button again starts the transactions
+-> Transactions are printed in the terminal
