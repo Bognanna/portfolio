@@ -1,0 +1,153 @@
+# depslib dependency file v1.0
+1616162374 source:d:\polibuda\semestr 2\algorithms&ds\zadanie 1\zad1\main.cpp
+	<iostream>
+	<ctime>
+	<fstream>
+	<cmath>
+	<vector>
+	"BS.hpp"
+	"HS.hpp"
+	"CS.hpp"
+	"SHS.hpp"
+
+1616159243 d:\polibuda\semestr 2\algorithms&ds\zadanie 1\zad1\bs.hpp
+
+1616160528 source:d:\polibuda\semestr 2\algorithms&ds\zadanie 1\zad1\bs.cpp
+	"BS.hpp"
+
+1616160496 source:d:\polibuda\semestr 2\algorithms&ds\zadanie 1\zad1\hs.cpp
+	"HS.hpp"
+
+1616160957 d:\polibuda\semestr 2\algorithms&ds\zadanie 1\zad1\hs.hpp
+
+1616261587 source:d:\polibuda\semestr 2\algorithms&ds\zadanie 1\zad1\shs.cpp
+	"SHS.hpp"
+	<vector>
+
+1616261586 d:\polibuda\semestr 2\algorithms&ds\zadanie 1\zad1\shs.hpp
+	<iostream>
+
+1616161467 source:d:\polibuda\semestr 2\algorithms&ds\zadanie 1\zad1\cs.cpp
+	"CS.hpp"
+
+1616161469 d:\polibuda\semestr 2\algorithms&ds\zadanie 1\zad1\cs.hpp
+
+1616164128 source:d:\polibuda\semestr 2\algorithms&ds\zadanie 1\zad1\i\bs.cpp
+	"BS.hpp"
+
+1616162843 d:\polibuda\semestr 2\algorithms&ds\zadanie 1\zad1\i\bs.hpp
+
+1616165067 source:d:\polibuda\semestr 2\algorithms&ds\zadanie 1\zad1\i\cs.cpp
+	"CS.hpp"
+
+1616165069 d:\polibuda\semestr 2\algorithms&ds\zadanie 1\zad1\i\cs.hpp
+
+1616164096 source:d:\polibuda\semestr 2\algorithms&ds\zadanie 1\zad1\i\hs.cpp
+	"HS.hpp"
+
+1616164557 d:\polibuda\semestr 2\algorithms&ds\zadanie 1\zad1\i\hs.hpp
+
+1616265187 source:d:\polibuda\semestr 2\algorithms&ds\zadanie 1\zad1\i\shs.cpp
+	"SHS.hpp"
+	<vector>
+
+1616265186 d:\polibuda\semestr 2\algorithms&ds\zadanie 1\zad1\i\shs.hpp
+	<iostream>
+
+1616267587 source:d:\polibuda\semestr 2\algorithms&ds\zadanie 1\zad1\i\main.cpp
+	<iostream>
+	<ctime>
+	<fstream>
+	<cmath>
+	"BS.hpp"
+	"HS.hpp"
+	"CS.hpp"
+	"SHS.hpp"
+
+1616160528 source:d:\polibuda\semestr 2\algorithms&ds\retake\1\3. bs vs. hs vs. cs vs. shs\bs.cpp
+	"BS.hpp"
+
+1616159243 d:\polibuda\semestr 2\algorithms&ds\retake\1\3. bs vs. hs vs. cs vs. shs\bs.hpp
+
+1616161467 source:d:\polibuda\semestr 2\algorithms&ds\retake\1\3. bs vs. hs vs. cs vs. shs\cs.cpp
+	"CS.hpp"
+
+1616161469 d:\polibuda\semestr 2\algorithms&ds\retake\1\3. bs vs. hs vs. cs vs. shs\cs.hpp
+
+1616160496 source:d:\polibuda\semestr 2\algorithms&ds\retake\1\3. bs vs. hs vs. cs vs. shs\hs.cpp
+	"HS.hpp"
+
+1616160957 d:\polibuda\semestr 2\algorithms&ds\retake\1\3. bs vs. hs vs. cs vs. shs\hs.hpp
+
+1647778685 source:d:\polibuda\semestr 2\algorithms&ds\retake\1\3. bs vs. hs vs. cs vs. shs\main.cpp
+	<iostream>
+	<ctime>
+	<fstream>
+	<cmath>
+	"BS.hpp"
+	"HS.hpp"
+	"CS.hpp"
+	"SHS.hpp"
+
+1616261586 d:\polibuda\semestr 2\algorithms&ds\retake\1\3. bs vs. hs vs. cs vs. shs\shs.hpp
+	<iostream>
+
+1616261587 source:d:\polibuda\semestr 2\algorithms&ds\retake\1\3. bs vs. hs vs. cs vs. shs\shs.cpp
+	"SHS.hpp"
+	<vector>
+
+1616160528 source:d:\polibuda\semestr 4\algorithms & data structures\01 sorting algorithms\3. bs vs. hs vs. cs vs. shs\bs.cpp
+	"BS.hpp"
+
+1616159243 d:\polibuda\semestr 4\algorithms & data structures\01 sorting algorithms\3. bs vs. hs vs. cs vs. shs\bs.hpp
+
+1616161467 source:d:\polibuda\semestr 4\algorithms & data structures\01 sorting algorithms\3. bs vs. hs vs. cs vs. shs\cs.cpp
+	"CS.hpp"
+
+1616161469 d:\polibuda\semestr 4\algorithms & data structures\01 sorting algorithms\3. bs vs. hs vs. cs vs. shs\cs.hpp
+
+1616160496 source:d:\polibuda\semestr 4\algorithms & data structures\01 sorting algorithms\3. bs vs. hs vs. cs vs. shs\hs.cpp
+	"HS.hpp"
+
+1616160957 d:\polibuda\semestr 4\algorithms & data structures\01 sorting algorithms\3. bs vs. hs vs. cs vs. shs\hs.hpp
+
+1616261587 source:d:\polibuda\semestr 4\algorithms & data structures\01 sorting algorithms\3. bs vs. hs vs. cs vs. shs\shs.cpp
+	"SHS.hpp"
+	<vector>
+
+1616261586 d:\polibuda\semestr 4\algorithms & data structures\01 sorting algorithms\3. bs vs. hs vs. cs vs. shs\shs.hpp
+	<iostream>
+
+1647853854 source:e:\polibuda\semestr 4\algorithms & data structures\01 sorting algorithms\3. bs vs. hs vs. cs vs. shs\bs.cpp
+	"BS.hpp"
+
+1616159243 e:\polibuda\semestr 4\algorithms & data structures\01 sorting algorithms\3. bs vs. hs vs. cs vs. shs\bs.hpp
+
+1616161467 source:e:\polibuda\semestr 4\algorithms & data structures\01 sorting algorithms\3. bs vs. hs vs. cs vs. shs\cs.cpp
+	"CS.hpp"
+
+1616161469 e:\polibuda\semestr 4\algorithms & data structures\01 sorting algorithms\3. bs vs. hs vs. cs vs. shs\cs.hpp
+
+1616160496 source:e:\polibuda\semestr 4\algorithms & data structures\01 sorting algorithms\3. bs vs. hs vs. cs vs. shs\hs.cpp
+	"HS.hpp"
+
+1616160957 e:\polibuda\semestr 4\algorithms & data structures\01 sorting algorithms\3. bs vs. hs vs. cs vs. shs\hs.hpp
+
+1647853570 source:e:\polibuda\semestr 4\algorithms & data structures\01 sorting algorithms\3. bs vs. hs vs. cs vs. shs\main.cpp
+	<iostream>
+	<ctime>
+	<fstream>
+	<cmath>
+	<stdlib.h>
+	"BS.hpp"
+	"HS.hpp"
+	"CS.hpp"
+	"SHS.hpp"
+
+1616261586 e:\polibuda\semestr 4\algorithms & data structures\01 sorting algorithms\3. bs vs. hs vs. cs vs. shs\shs.hpp
+	<iostream>
+
+1616261587 source:e:\polibuda\semestr 4\algorithms & data structures\01 sorting algorithms\3. bs vs. hs vs. cs vs. shs\shs.cpp
+	"SHS.hpp"
+	<vector>
+

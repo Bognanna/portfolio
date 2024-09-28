@@ -1,0 +1,53 @@
+# depslib dependency file v1.0
+1616268430 source:d:\polibuda\semestr 2\algorithms&ds\zadanie 1\zad1\ii\ms.cpp
+	"MS.hpp"
+
+1616268430 d:\polibuda\semestr 2\algorithms&ds\zadanie 1\zad1\ii\ms.hpp
+
+1632180315 source:d:\polibuda\semestr 2\algorithms&ds\zadanie 1\zad1\ii\main.cpp
+	<iostream>
+	<ctime>
+	<cstdlib>
+	<fstream>
+	"MS.hpp"
+	"QS.hpp"
+	"HS.hpp"
+
+1616268704 d:\polibuda\semestr 2\algorithms&ds\zadanie 1\zad1\ii\qs.hpp
+
+1632178394 source:d:\polibuda\semestr 2\algorithms&ds\zadanie 1\zad1\ii\qs.cpp
+	"QS.hpp"
+	<cmath>
+	<algorithm>
+
+1632179797 source:d:\polibuda\semestr 2\algorithms&ds\zadanie 1\zad1\ii\hs.cpp
+	"HS.hpp"
+
+1616268932 d:\polibuda\semestr 2\algorithms&ds\zadanie 1\zad1\ii\hs.hpp
+
+1632179797 source:e:\polibuda\semestr 4\algorithms & data structures\01 sorting algorithms\4. qs vs. hs vs. ms\hs.cpp
+	"HS.hpp"
+
+1616265332 e:\polibuda\semestr 4\algorithms & data structures\01 sorting algorithms\4. qs vs. hs vs. ms\hs.hpp
+
+1632181785 source:e:\polibuda\semestr 4\algorithms & data structures\01 sorting algorithms\4. qs vs. hs vs. ms\main.cpp
+	<iostream>
+	<ctime>
+	<cstdlib>
+	<fstream>
+	"MS.hpp"
+	"QS.hpp"
+	"HS.hpp"
+
+1616264830 e:\polibuda\semestr 4\algorithms & data structures\01 sorting algorithms\4. qs vs. hs vs. ms\ms.hpp
+
+1616265104 e:\polibuda\semestr 4\algorithms & data structures\01 sorting algorithms\4. qs vs. hs vs. ms\qs.hpp
+
+1616264830 source:e:\polibuda\semestr 4\algorithms & data structures\01 sorting algorithms\4. qs vs. hs vs. ms\ms.cpp
+	"MS.hpp"
+
+1632178394 source:e:\polibuda\semestr 4\algorithms & data structures\01 sorting algorithms\4. qs vs. hs vs. ms\qs.cpp
+	"QS.hpp"
+	<cmath>
+	<algorithm>
+
